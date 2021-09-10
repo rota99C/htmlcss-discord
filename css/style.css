@@ -21,17 +21,26 @@ header {
     width: 1021px;
     height: 100%;
     margin: auto;
-    display: inline-block;
 }
 
 .logo {
     background-color: royalblue;
     height: 100%;
     width: 15%;
+    float: left;
 }
 
 nav {
     background-color: saddlebrown;
     height: 100%;
     width: 70%;
+    float: left;
+}
+
+.accedi {
+    background-color: seashell;
+    height: 100%;
+    width: 15%;
+    float: left;
+
 }
