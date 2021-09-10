@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
 }
 /* header */
 
@@ -33,7 +34,7 @@ header {
 }
 
 nav {
-    background-color: #3161E0;
+    
     height: 100%;
     width: 70%;
     float: left;
@@ -55,30 +56,79 @@ nav li {
 }
 
 .accedi {
-    background-color: seashell;
-    height: 100%;
-    width: 15%;
+    background-color: white;
     float: right;
-    border-radius: 50px;
+    border-radius: 25px;
+    margin-top: 18px;
+    padding: 5px 17px;
 }
+
+.accedi a {
+    text-decoration: none;
+}
+
+.accedi a:visited {
+    color: black;
+}
+
 
 /* slideshow */
 
 .slideshow {
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: orangered;
+    background-image: url(../img/jumbo.png);
     position: relative;
+    background-origin: content-box;
+    background-size: cover;
 }
 
 .testi-slideshow{
     width: 680px;
     height: 277px;
-    background-color: orchid;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.testi-slideshow h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.testi-slideshow p {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.testi-slideshow span {
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.testi-slideshow a {
+    text-decoration: none;
+}
+
+.scarica {
+    background-color: white;
+    color: black;
+}
+
+.scarica a:visited {
+    color: black;
+}
+
+.apri-discord {
+    background-color: black;
+    color: white;
+}
+
+.apri-discord a:visited {
+    color: white;
 }
 
 /* section1 */
