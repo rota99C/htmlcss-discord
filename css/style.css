@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* header */
 
 header {
     background-color: aqua;
@@ -41,6 +42,100 @@ nav {
     background-color: seashell;
     height: 100%;
     width: 15%;
-    float: left;
+    float: right;
+}
+
+/* slideshow */
+
+.slideshow {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: orangered;
+    position: relative;
+}
+
+.testi-slideshow{
+    width: 680px;
+    height: 277px;
+    background-color: orchid;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* section1 */
+
+.section-1 {
+    background-color: purple;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 
 }
+
+.immagine-testo{
+    background-color: seashell;
+    width: 1022px;
+    margin: auto;
+    height: 100%;
+}
+
+.immagine{
+    float: left;
+    width: 65%;
+    height: 100%;
+    background-color: sienna;
+}
+
+.testo{
+    float: right;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(255, 0, 179);
+
+}
+
+/* section 2 */
+
+
+
+.section-2 {
+    background-color: rgb(141, 131, 141);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+
+
+
+.section-2 .immagine{
+    float: right;
+    width: 65%;
+    height: 100%;
+    background-color: rgb(179, 152, 140);
+}
+
+.section-2 .testo{
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(34, 34, 34);
+
+}
+
+
+/* section3 */
+.section-3 {
+    background-color: purple;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+
+
+
