@@ -19,7 +19,6 @@ header {
 }
 
 .container {
-    
     width: 1021px;
     height: 100%;
     margin: auto;
@@ -103,7 +102,7 @@ nav li {
     margin-bottom: 25px;
 }
 
-.testi-slideshow span {
+.testi-slideshow span, .section-5 span {
     border-radius: 25px;
     padding: 10px 25px;
     margin: 10px;
@@ -131,78 +130,116 @@ nav li {
     color: white;
 }
 
-/* section1 */
+/* sections general */
 
-.section-1 {
-    background-color: purple;
+section {
     width: 100%;
     height: 100vh;
     position: relative;
-
 }
 
-.immagine-testo{
-    background-color: seashell;
+.immagine-testo {
     width: 1022px;
     margin: auto;
     height: 100%;
 }
 
-.immagine{
-    float: left;
+.immagine {
     width: 65%;
     height: 100%;
-    background-color: sienna;
+    position: relative;
 }
 
-.testo{
-    float: right;
+section img:not(.img-4, .img-5) {
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testo {
     width: 35%;
     height: 100%;
-    background-color: rgb(255, 0, 179);
+    position: relative;
+}
 
+section h2 {
+    font-size: 2.3em;
+}
+
+.testo div {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+ /* section 1 e section 3*/
+
+.section-1 .immagine, .section-3 .immagine {
+    float: left;
+}
+
+.section-1 .testo, .section-3 .testo {
+    float: right;
 }
 
 /* section 2 */
 
-
-
 .section-2 {
-    background-color: rgb(141, 131, 141);
-    width: 100%;
-    height: 100vh;
-    position: relative;
-
+    background-color: #f6f6f6;
 }
-
-
-
-
 
 .section-2 .immagine{
     float: right;
-    width: 65%;
-    height: 100%;
-    background-color: rgb(179, 152, 140);
+    background-color: #f6f6f6;
 }
 
 .section-2 .testo{
     float: left;
-    width: 35%;
-    height: 100%;
-    background-color: rgb(34, 34, 34);
+    background-color: #f6f6f6;
+}
+
+/* section 4 */
+
+.section-4, .section-5 {
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+/* section 5 */
+
+.section-5 {
+    height: 210px;
+}
+
+.section-5 span {
+    background-color: #8ea1e1;
+    color: white;
 
 }
 
+.section-5 a {
+    text-decoration: none;
+}
 
-/* section3 */
-.section-3 {
-    background-color: purple;
-    width: 100%;
-    height: 100vh;
-    position: relative;
+.section-5 a:visited {
+    color: white;
+}
 
+.section-5 h3 {
+    transform: translate(0px, -25px);
+}
 
+.img-5 {
+    width: 350px;
+}
 
+/* footer */
 
-
+footer {
+    height: calc(100vh - 210px);
+    background-color: #23272a;
+}
