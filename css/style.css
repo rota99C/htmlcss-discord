@@ -241,5 +241,60 @@ section h2 {
 
 footer {
     height: calc(100vh - 210px);
-    background-color: #23272a;
+    background-color: black;
+    width: 100%;
 }
+
+.conteiner-footer {
+    width: 70%;
+    background-color: black
+    height 100%;
+    margin:auto;
+    
+}
+
+.col-contatti {
+    float: left;
+    width: 30%;
+}
+
+footer .col-contatti h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #7289DA;
+}
+
+footer .col-contatti form {
+    padding: 29px 0;
+    padding-bottom: 3px;
+}
+
+
+.col-prodotto {
+    float: left;
+    width: 17.5px;
+}
+
+.col-prodotto .titolo {
+    list-style: none;
+    color: #7289DA;;
+}
+
+.col-prodotto ul li {
+    color: white;
+    list-style: none;
+    padding: 5px;
+
+}
+
+
+.col-compania {
+    float: left;
+    width: 17.5px;
+}
+
+.col-compania ul li {
+    color: white;
+    list-style: none;
+    padding: 5px;
+
