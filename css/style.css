@@ -102,7 +102,7 @@ nav li {
     margin-bottom: 25px;
 }
 
-.testi-slideshow span, .section-5 span {
+.testi-slideshow span, .section-5 span, footer span {
     border-radius: 25px;
     padding: 10px 25px;
     margin: 10px;
@@ -209,6 +209,10 @@ section h2 {
     text-align: center;
 }
 
+.section-4 {
+    padding-top: 60px;
+}
+
 /* section 5 */
 
 .section-5 {
@@ -240,17 +244,20 @@ section h2 {
 /* footer */
 
 footer {
-    height: calc(100vh - 210px);
     background-color: black;
     width: 100%;
+    color: white;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 
 .conteiner-footer {
-    width: 70%;
-    background-color: black
-    height 100%;
+    width: 1022px;
+    background-color: black;
+    height: 100%;
     margin:auto;
-    
+    border-bottom: #7289DA solid 1px;
+    padding-bottom: 15px;
 }
 
 .col-contatti {
@@ -258,30 +265,44 @@ footer {
     width: 30%;
 }
 
-footer .col-contatti h2{
-    font-size: 26px;
-    font-weight: 700;
+footer .col-contatti h1 {
     color: #7289DA;
 }
 
 footer .col-contatti form {
-    padding: 29px 0;
+    padding-top: 15px;
     padding-bottom: 3px;
+}
+
+.col-contatti img {
+    width: 20px;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* icone */
+i {
+    color: white;
+    margin-right: 20px;
 }
 
 
 .col-prodotto {
     float: left;
-    width: 17.5px;
+    width: 17.5%;
 }
 
-.col-prodotto .titolo {
+.titolo-liste {
     list-style: none;
-    color: #7289DA;;
+    color: #7289DA;
+    font-weight: bold;
 }
 
 .col-prodotto ul li {
-    color: white;
     list-style: none;
     padding: 5px;
 
@@ -290,11 +311,58 @@ footer .col-contatti form {
 
 .col-compania {
     float: left;
-    width: 17.5px;
+    width: 17.5%;
 }
 
 .col-compania ul li {
-    color: white;
     list-style: none;
     padding: 5px;
+}
 
+
+
+
+
+.col-risorse {
+    float: left;
+    width: 17.5%;
+}
+
+
+.col-risorse ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+
+.col-norme {
+    float: left;
+    width: 17.5%;
+}
+
+
+.col-norme ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+
+footer span {
+    background-color: #8ea1e1;
+    color: white;
+    float: right;
+}
+
+footer span a {
+    text-decoration: none;
+}
+
+footer span a:visited {
+    color: white;
+}
+
+.fine-footer {
+    width: 1022px;
+    margin: auto;
+    padding-top: 20px;
+}
